@@ -42,10 +42,3 @@ console.log(PI);
 
 // PI - 14; // isto vai gerar erro
 // console.log(PI)
-
-// Tipagem Estatica - Definição de um tipo a cada variavel (Java, C, C++, TypeScript)
-// Tipagem Dinamica - O tipo da variavel é definido de acordo com seu valor (JavaScript, Python)
-
-// let variavel = 90; Number
-// variavel = "Texto"; String
-// variavel = true; Boleano
