@@ -63,6 +63,7 @@ console.log(a); // 30 */
     != Diferente
 */
 
+/*
 const n1 = 9;
 const n2 = 11;
 const n3 = 9;
@@ -107,4 +108,74 @@ console.log(result); // false
 
 result = 3.14 == 3.14;
 console.log(result);
+*/
+
+// Operadores Lógicos
+/*
+    && - E (se tiver 1 FALSE ele retorna como resultado FALSE)
+    || - OU (se tiver 1 TRUE ele retorna como resultado TRUE)
+    ! - NÃO (se for TRUE ele vira FALSE e o contrário o mesmo)
+*/
+
+/*
+console.log(true);
+console.log(false);
+
+console.log(true && true); // true
+console.log(true && false); // false
+console.log(true && true && true && true && false); // false
+console.log(false && true); // false
+
+console.log(true || true); // true
+console.log(true || false); // true
+console.log(true || true || true || true || false); // true
+console.log(false || false); // false
+
+console.log(!true); // false
+console.log(!false); // true
+
+console.log(!true || false); // false
+console.log((true || true) && false); // false
+
+
+// dada a idade, a pessoa é obrigada a votar
+let idade = 23;
+let calculo = (idade >= 18) && (idade <=65);
+console.log(calculo);
+*/
+
+// Operador Ternário
+// condição ? caso for verdadeiro : caso for falso;
+/*
+let mensagem;
+let nota1 = 4;
+let nota2 = 10;
+let condicao = ((nota1 + nota2) / 2) >= 7;
+mensagem = condicao ? "Aprovado" : "Reprovado";
+console.log(mensagem);
+*/
+
+// aritméticos > relacionais > logicos
+/*
+
+/*
+let num1 = 6;
+let num2 = 8;
+let num3 = 10;
+let result;
+result = ((num1 + num2 + num3) / 3);
+console.log(result);
+*/
+
+let num1 = 2;
+let calculo = (num1 % 2)
+
+
+
+
+
+
+
+
+
 
