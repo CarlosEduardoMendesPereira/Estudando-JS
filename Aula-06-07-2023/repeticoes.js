@@ -47,17 +47,17 @@
 // while - Uma quantidade de repetições indeterminadas
 // i - iteração
 
-let num = 73;
-let ePrimo = true;
-for(let i = 2; i < num; i++) {
-    if(num % i == 0) {
-        ePrimo = false;
-    }
-}
+// let num = 73;
+// let ePrimo = true;
+// for(let i = 2; i < num; i++) {
+//     if(num % i == 0) {
+//         ePrimo = false;
+//     }
+// }
 
-if(ePrimo) {
-    console.log("é primo")
-}
-else {
-    console.log("N é primo")
-}
+// if(ePrimo) {
+//     console.log("é primo")
+// }
+// else {
+//     console.log("N é primo")
+// }
