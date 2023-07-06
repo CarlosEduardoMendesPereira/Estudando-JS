@@ -1,0 +1,112 @@
+// Escreva um programa que verifique se um programa é positivo, negativo ou zero e exiba uma mensagem correspondente
+
+
+// let num = 0;
+
+// if (num > 0) {
+//     console.log ("Positivo");
+// } 
+// else if (num < 0) {
+//     console.log ("Negativo"); 
+// }
+// else {
+//     console.log ("Zero"); 
+// }
+
+
+// Crie um programa que receba a idade de uma pessoa e verifique se ela é maior de idade ou menor de idade
+
+// let idade = 18;
+// if(idade >= 18) {
+//     console.log("Ele é maior de idade");
+// }
+// else {
+//     console.log("É menor de idade");
+// }
+
+// Escreva um programa que receba três numeros e determine qual deles é o maior.
+
+
+
+
+
+// Crie um programa que receba três numeros e determine qual deles é o maior
+
+
+
+// Escreva um programa que receba o nome de um dia da semana e eiba se é um dia util ou fim de semana
+
+// let dia = "domingo";
+// if(dia == "segunda") {
+//     console.log("é um dia util");
+// }
+// else if (dia == "terca") {
+//     console.log("é um dia util");
+// }
+// else if (dia == "quarta") {
+//     console.log("é um dia util");
+// }
+// else if (dia == "quinta") {
+//     console.log("é um dia util");
+// }
+// else if (dia == "sexta") {
+//     console.log("é um dia util");
+// }
+// else if(dia == "sabado") {
+//     console.log("É um final de semana");
+// }
+// else if(dia == "domingo") {
+//     console.log("É um final de semana");
+// }
+
+// Faça um programa que receba um numero de 1 a 7 e exiba o dia da semana correspondente (1 - domingo, 2 -segunda, etc)
+
+// let dia = 3;
+// if(dia == 1) {
+//     console.log("Domingo");
+// }
+// else if (dia == 2) {
+//     console.log("Segunda");
+// }
+// else if (dia == 3) {
+//     console.log("Terça");
+// }
+// else if (dia == 4) {
+//     console.log("Quarta");
+// }
+// else if (dia == 5) {
+//     console.log("Quinta");
+// }
+// else if(dia == 6) {
+//     console.log("Sexta");
+// }
+// else if(dia == 7) {
+//     console.log("Sabado");
+// }
+
+// let dia = 1;
+// switch(dia) {
+//     case 1:
+//         console.log("Domingo");
+//         break;
+//     case 2:
+//         console.log("Segunda");
+//         break;
+//     case 3:
+//         console.log("Terça");
+//         break;
+//     case 4:
+//         console.log("Quarta");
+//         break;
+//     case 5:
+//         console.log("Quinta");
+//         break;
+//     case 6:
+//         console.log("Sexta");
+//         break;
+//     case 7:
+// }
+
+
+
+

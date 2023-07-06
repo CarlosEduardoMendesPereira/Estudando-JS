@@ -78,38 +78,38 @@
 //     console.log("Conseguiu fazer a compra");
 // }
 
-let num1 = 10, num2 = 9, num3 = 40;
-if(num1 == num2 || num2 == num3 || num1 == num3) {
-    console.log("Os numeros não podem ser iguais");
-}
-else if(num1 > num2 && num1 > num3) {
-    if(num2 > num3) {
-        console.log(num1 + " > " + num2 + " > " + num3); //num1 > num2 > num3
-    }
-    else {
-        console.log(num1 + " > " + num3 + " > " + num2); //num1 > num3 > num2
-    }
-}
-else if(num2 > num1 && num2 > num3) {
-    if(num1 > num3) {
-        console.log(num2 + " > " + num1 + " > " + num3); // num2 > num1 > num3
-    }
-    else {
-        console.log(num2 + " > " + num3 + " > " + num1); // num2 > num3 > num1
+// let num1 = 10, num2 = 9, num3 = 40;
+// if(num1 == num2 || num2 == num3 || num1 == num3) {
+//     console.log("Os numeros não podem ser iguais");
+// }
+// else if(num1 > num2 && num1 > num3) {
+//     if(num2 > num3) {
+//         console.log(num1 + " > " + num2 + " > " + num3); //num1 > num2 > num3
+//     }
+//     else {
+//         console.log(num1 + " > " + num3 + " > " + num2); //num1 > num3 > num2
+//     }
+// }
+// else if(num2 > num1 && num2 > num3) {
+//     if(num1 > num3) {
+//         console.log(num2 + " > " + num1 + " > " + num3); // num2 > num1 > num3
+//     }
+//     else {
+//         console.log(num2 + " > " + num3 + " > " + num1); // num2 > num3 > num1
     
-    }
-}
-else {
-    if(num1 > num2) {
-        console.log(num3 + " > " + num1 + " > " + num2); // num3 > num1 > num 2
-    }
-    else {
-        console.log(num3 + " > " + num2 + " > " + num1); // num3 > num2 > num1
-    }
+//     }
+// }
+// else {
+//     if(num1 > num2) {
+//         console.log(num3 + " > " + num1 + " > " + num2); // num3 > num1 > num 2
+//     }
+//     else {
+//         console.log(num3 + " > " + num2 + " > " + num1); // num3 > num2 > num1
+//     }
 
-}
+// }
 
-let mes = 7;
+let mes = 5;
 if(mes == 1){
     console.log("Janeiro");
 }
