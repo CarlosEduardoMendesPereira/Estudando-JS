@@ -83,3 +83,5 @@ console.log(Math.sqrt(625)); //
 console.log(Math.abs(-8)); //
 console.log(Math.random()); // gera numero aleatório [0, 1 ....[
 console.log(Math.floor(Math.random() * 100 + 1)); // gera um numero aleatorio de 1 até 100
+
+
