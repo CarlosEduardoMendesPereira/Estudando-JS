@@ -109,9 +109,19 @@ teste(numero => (numero * 2)); // pode-se omitir o "return" e as {} quando há a
 
 // Exemplos
 
-setTimeout(() => console.log("Hello"), 2000); // Código mais limpo
+// setTimeout(() => console.log("Hello"), 2000); // Código mais limpo
 
-setTimeout(() => { // Quando adicionar mais um console
-    console.log("Hello");
-    console.log("Olá");
-}, 2000);
+// setTimeout(() => { // Quando adicionar mais um console
+//     console.log("Hello");
+//     console.log("Olá");
+// }, 2000);
+
+// Recursividade - Chamada de uma função pela mesma função
+
+function fatorial(numero) {
+    if(numero == 1) {
+        return 1;
+    }
+    return numero * fatorial(numero - 1);
+}
+console.log(fatorial(4));
