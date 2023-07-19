@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lista de Tarefas</title>
+<style>
+    table {
+    border-collapse: collapse;
+    }
+    
+    th, td {
+    border: 1px solid black;
+    padding: 8px;
+    }
+</style>
+</head>
+<body>
+<h1>Lista de Tarefas</h1>
+
+<form id="task-form">
+    <label for="description">Descrição:</label>
+    <input type="text" id="description">
+    <label for="priority">Prioridade:</label>
+    <select id="priority">
+    <option value="alta">Alta</option>
+    <option value="média">Média</option>
+    <option value="baixa">Baixa</option>
+    </select>
+    <label for="due-date">Prazo:</label>
+    <input type="date" id="due-date">
+    <button type="submit">Adicionar Tarefa</button>
+</form>
+
+<table id="task-table">
+    <thead>
+    <tr>
+        <th>Descrição</th>
+        <th>Prioridade</th>
+        <th>Prazo</th>
+        <th>Status</th>
+        <th>Ações</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- As linhas da tabela serão adicionadas dinamicamente -->
+    </tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
